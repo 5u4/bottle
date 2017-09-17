@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include_once 'connection.php';
 
 function passButton() {
 // When users press passButton, gain exp and golds, and check if level up.
