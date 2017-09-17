@@ -28,6 +28,7 @@
   <!--page container-->
   <div class="container-fluid" style="padding-top: 3%">
       <a href="../index.php"><button class="btn btn-default">HOME</button></a>
+      <h2 class="text-center">Shop</h2>
       <div class="panel panel-primary">
           <div class="panel-body">
       <div class="row">
@@ -39,20 +40,105 @@
 
           <div class="card-body">
             <h4 class="card-title">
-              <img src="../assets/images/lv3.png" alt="item" class="img-thumbnail center-block">
+              <img src="../assets/images/item1.png" alt="item" class="img-thumbnail center-block">
             </h4>
-            <h5>$24.99</h5>
-<!--            <p class="card-text">Item</p>-->
+            <h5>$10</h5>
           </div>
           <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <small class="text-muted">&#9733; &#9733; &#9734; &#9734; &#9734;</small>
             </div>
         </div>
       </div>
 
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+              <div class="card h-100">
 
+                  <div class="card-body">
+                      <h4 class="card-title">
+                          <img src="../assets/images/item2.png" alt="item" class="img-thumbnail center-block">
+                      </h4>
+                      <h5>$11</h5>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                  </div>
+              </div>
+          </div>
 
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+              <div class="card h-100">
 
+                  <div class="card-body">
+                      <h4 class="card-title">
+                          <img src="../assets/images/item3.png" alt="item" class="img-thumbnail center-block">
+                      </h4>
+                      <h5>$12</h5>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+              <div class="card h-100">
+
+                  <div class="card-body">
+                      <h4 class="card-title">
+                          <img src="../assets/images/item4.png" alt="item" class="img-thumbnail center-block">
+                      </h4>
+                      <h5>$7</h5>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-muted">&#9733; &#9734; &#9734; &#9734; &#9734;</small>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+              <div class="card h-100">
+
+                  <div class="card-body">
+                      <h4 class="card-title">
+                          <img src="../assets/images/item5.png" alt="item" class="img-thumbnail center-block">
+                      </h4>
+                      <h5>$8</h5>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-muted">&#9733; &#9733; &#9733; &#9734; &#9734;</small>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+              <div class="card h-100">
+
+                  <div class="card-body">
+                      <h4 class="card-title">
+                          <img src="../assets/images/item6.png" alt="item" class="img-thumbnail center-block">
+                      </h4>
+                      <h5>$9</h5>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+              <div class="card h-100">
+
+                  <div class="card-body">
+                      <h4 class="card-title">
+                          <img src="../assets/images/item7.png" alt="item" class="img-thumbnail center-block">
+                      </h4>
+                      <h5>$3</h5>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small>
+                  </div>
+              </div>
+          </div>
 
     </div>
   </div>

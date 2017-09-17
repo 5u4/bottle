@@ -9,8 +9,8 @@ function passButton() {
 
   //-------------------------------------------
   // this is to update gold for passbutton
-  // $sqlGold = "UPDATE users SET gold= gold + '$gainGold' WHERE id = '1'";
-  // $resultGold = mysqli_query($con,$sqlGold);
+   $sqlGold = "UPDATE users SET gold= gold + '$gainGold' WHERE id = '1'";
+   $resultGold = mysqli_query(connection(),$sqlGold);
   //-------------------------------------------
 
   $sql = "UPDATE users SET exp= exp + '$gainExp' WHERE id = '1';";
