@@ -1,3 +1,11 @@
+<?php
+include_once '../controllers/drinkButton.php';
+include_once '../controllers/getExp.php';
+include_once '../controllers/getGold.php';
+include_once '../controllers/getLevel.php';
+include_once '../controllers/getMaxExp.php';
+include_once '../controllers/passButton.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,24 +35,21 @@
 </head>
 <body>
 <div class="container">
-  <div class="panel">
-
+    <a href="../index.php"><button class="btn btn-default">HOME</button></a>
+  <div class="panel panel-primary">
+    <div class="panel-body">
   <style type="text/css">
-  .tg  {border-collapse:collapse;border-spacing:0;}
-  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-  .tg .tg-yw4l{vertical-align:top}
   </style>
-  <table class="tg">
+  <table class="table table-bordered">
     <tr>
-      <th class="tg-yw4l"></th>
-      <th class="tg-yw4l"></th>
-      <th class="tg-yw4l"></th>
+      <th><img src="../assets/images/lv3.png" alt="tree" class="img-thumbnail center-block"></th>
+      <th class="tg-yw4l"><img src="../assets/images/lv3.png" alt="tree" class="img-thumbnail center-block"></th>
+      <th class="tg-yw4l"><img src="../assets/images/lv3.png" alt="tree" class="img-thumbnail center-block"></th>
     </tr>
     <tr>
-      <td class="tg-yw4l"></td>
-      <td class="tg-yw4l"></td>
-      <td class="tg-yw4l"></td>
+      <td class="tg-yw4l"><img src="../assets/images/lv3.png" alt="tree" class="img-thumbnail center-block"></td>
+      <td class="tg-yw4l"><img src="../assets/images/lv<?php echo getLevel(); ?>.png" alt="tree" class="img-thumbnail center-block"></td>
+      <td class="tg-yw4l"><img src="../assets/images/lv1.png" alt="tree" class="img-thumbnail center-block"></td>
     </tr>
     <tr>
       <td class="tg-yw4l"></td>
@@ -53,6 +58,7 @@
     </tr>
   </table>
 
+  </div>
   </div>
 
 </div>
