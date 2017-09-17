@@ -23,7 +23,7 @@ include_once 'controllers/passButton.php';
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Bootstrap -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
     <link href="/assets/css/nav.css" rel="stylesheet">
     <link href="/assets/css/circle-btn.css" rel="stylesheet">
     <link href="/assets/css/progress.css" rel="stylesheet">
@@ -42,7 +42,7 @@ include_once 'controllers/passButton.php';
     <a href="/views/garden.php"><button class="btn btn-default">My Garden</button></a>
     <a href="/views/shop.php"><button class="btn btn-default">Shop</button></a>
 
-    <img src="/assets/images/lv<?php echo getLevel(); ?>.png" class="img-responsive center-block" alt="Responsive image">
+    <img src="/assets/images/lv<?php echo getLevel(); ?>.png" class="img-thumbnail center-block" alt="Responsive image"><br/>
 
     <div class="panel panel-primary">
         <div class="panel-body">

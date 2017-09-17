@@ -23,7 +23,7 @@ include_once '../controllers/passButton.php';
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <!-- Bootstrap -->
-  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/css/bootstrap.css" rel="stylesheet">
   <link href="/assets/css/nav.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

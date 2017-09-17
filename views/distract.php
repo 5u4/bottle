@@ -27,7 +27,7 @@ if (isset($_POST['drink'])) {
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <!-- Bootstrap -->
-  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/css/bootstrap.css" rel="stylesheet">
   <link href="/assets/css/nav.css" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -65,7 +65,7 @@ if (isset($_POST['drink'])) {
                   curl_close($ch);
               ?>
           </h5>
-            <div id="forceImg"> <img src="force.gif"> </div>
+            <div id="forceImg"> <img src="force.gif" alt="img" class="img-thumbnail center-block"> </div>
         </div>
       </div>
 
@@ -87,7 +87,7 @@ if (isset($_POST['drink'])) {
         <?php
             if (isset($_POST['force'])) {
                 $message = "force";
-                echo "<script type='text/javascript'>alert('$message');</script>";
+//                echo "<script type='text/javascript'>alert('$message');</script>";
             }
         ?>
 
