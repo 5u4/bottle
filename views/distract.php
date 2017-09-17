@@ -16,7 +16,7 @@ if (isset($_POST['drink'])) {
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>You can change this</title>
+  <title>Bottle</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -31,6 +31,8 @@ if (isset($_POST['drink'])) {
   <link href="/assets/css/nav.css" rel="stylesheet">
 
 
+
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn\'t work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -43,7 +45,16 @@ if (isset($_POST['drink'])) {
 
       <div class="panel panel-default text-center">
         <div class="panel-body">
-          <p>joke body</p>
+          <h5>
+              <?php
+                  $ch = curl_init();
+                  curl_setopt($ch, CURLOPT_URL, "https://icanhazdadjoke.com/");
+                  curl_setopt($ch, CURLOPT_HEADER, false);
+                  curl_setopt($ch, CURLOPT_HTTPHEADER, array("Accept: text/plain"));
+                  $result=curl_exec($ch);
+                  curl_close($ch);
+              ?>
+          </h5>
         </div>
       </div>
 
