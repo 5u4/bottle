@@ -43,6 +43,8 @@ if (isset($_POST['drink'])) {
   <body>
     <div class="container-fluid" style="padding-top: 3%">
 
+        <a href="../index.php"><button class="btn btn-default">HOME</button></a>
+
       <div class="panel panel-default text-center">
         <div class="panel-body">
           <h5>

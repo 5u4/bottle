@@ -55,7 +55,7 @@ include_once 'controllers/passButton.php';
         </div>
     </div>
 
-    <div class="panel panel-primary text-center">
+    <div class="text-center">
         <div class="row">
     <form method="post" action="">
         <button class="btn btn-primary btn-lg" style="height: 100px; width: 300px;" name="pass">PASS</button>
