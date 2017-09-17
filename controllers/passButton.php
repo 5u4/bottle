@@ -16,7 +16,6 @@ function passButton() {
   $sql = "UPDATE users SET exp= exp + '$gainExp' WHERE id = '1';";
   $result = mysqli_query(connection(), $sql);
 
-  echo "<meta http-equiv='refresh' content='0'>";
 
 }
 ?>

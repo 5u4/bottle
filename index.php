@@ -1,10 +1,10 @@
 <?php
-include_once '/controllers/drinkButtons.php';
-include_once '/controllers/getExp.php';
-include_once '/controllers/getGold.php';
-include_once '/controllers/getLevel.php';
-include_once '/controllers/getMaxExp.php';
-include_once '/controllers/passButton.php';
+include_once 'controllers/drinkButtons.php';
+include_once 'controllers/getExp.php';
+include_once 'controllers/getGold.php';
+include_once 'controllers/getLevel.php';
+include_once 'controllers/getMaxExp.php';
+include_once 'controllers/passButton.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,6 +26,7 @@ include_once '/controllers/passButton.php';
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/nav.css" rel="stylesheet">
     <link href="/assets/css/circle-btn.css" rel="stylesheet">
+    <link href="/assets/css/progress.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -38,14 +39,36 @@ include_once '/controllers/passButton.php';
 <body>
 <div class="container-fluid" style="padding-top: 3%">
 
+
+    <div class="panel panel-primary">
+        <div class="panel-body">
+            <h1>
+                Level: <?php echo getLevel(); ?><br/>
+                Gold: <?php echo getGold(); ?>
+            </h1>
+            <div class="progress skill-bar ">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="<?php echo getExp()/getMaxExp()*100; ?>" aria-valuemin="0" aria-valuemax="100">
+                    <span class="skill">EXP <i class="val"><?php echo getExp(); ?></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <form method="post" action="">
         <button class="btn btn-circle-lg btn-primary" name="pass">PASS</button>
     </form>
+
+
+
+
 </div>
 
 <?php
 if (isset($_POST['pass'])) {
     passButton();
+    echo "<meta http-equiv='refresh' content='0'>";
 }
 ?>
 
@@ -53,5 +76,6 @@ if (isset($_POST['pass'])) {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/progress.js"></script>
 </body>
 </html>
