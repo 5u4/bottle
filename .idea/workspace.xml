@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="634deba0-6e47-4c15-97bf-b4125b69b8b9" name="Default" comment="">
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/views/distract.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.php" afterPath="" />
+=======
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/drinkButton.php" afterPath="$PROJECT_DIR$/controllers/drinkButton.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/getExp.php" afterPath="$PROJECT_DIR$/controllers/getExp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/getGold.php" afterPath="$PROJECT_DIR$/controllers/getGold.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/getLevel.php" afterPath="$PROJECT_DIR$/controllers/getLevel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/getMaxExp.php" afterPath="$PROJECT_DIR$/controllers/getMaxExp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/passButton.php" afterPath="$PROJECT_DIR$/controllers/passButton.php" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,6 +37,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="distract.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/distract.php">
@@ -44,6 +52,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -81,6 +92,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/controllers/member.php" />
+        <option value="$PROJECT_DIR$/mysql_code/members" />
+        <option value="$PROJECT_DIR$/mysql_code/courses.sql" />
+        <option value="$PROJECT_DIR$/mysql_code/code_for_creating_all_db.sql" />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         <option value="$PROJECT_DIR$/controllers/note.php" />
         <option value="$PROJECT_DIR$/controllers/peducators.php" />
         <option value="$PROJECT_DIR$/mysql_code/create.sql" />
@@ -128,10 +146,13 @@
         <option value="$PROJECT_DIR$/controllers/page.php" />
         <option value="$PROJECT_DIR$/views/course.php" />
         <option value="$PROJECT_DIR$/assets/js/nav.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/controllers/getLevel.php" />
         <option value="$PROJECT_DIR$/controllers/drinkButton.php" />
         <option value="$PROJECT_DIR$/controllers/passButton.php" />
         <option value="$PROJECT_DIR$/views/distract.php" />
+=======
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
       </list>
     </option>
   </component>
@@ -173,6 +194,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,7 +241,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
       <pane id="Scope" />
     </panes>
   </component>
@@ -227,6 +255,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+    </key>
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mysql_code" />
       <recent name="$PROJECT_DIR$/views" />
@@ -234,6 +272,7 @@
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/controllers" />
     </key>
+<<<<<<< HEAD
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$/assets" />
@@ -241,6 +280,8 @@
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/test" />
     </key>
+=======
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,11 +352,15 @@
       <workItem from="1505016816286" duration="1200000" />
       <workItem from="1505159921239" duration="17000" />
       <workItem from="1505636950236" duration="3725000" />
+<<<<<<< HEAD
       <workItem from="1505642783489" duration="2874000" />
+=======
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="201870000" />
   </component>
   <component name="ToolWindowManager">
@@ -323,6 +368,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1861167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="198996000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="686" y="22" width="994" height="1028" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1861167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -354,10 +407,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/mysql_code/peer_educator" />
+    <entry file="file://$PROJECT_DIR$/mysql_code/code_for_creating_all_db.sql" />
+    <entry file="file://$PROJECT_DIR$/mysql_code/peducator">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1745" column="22" lean-forward="false" selection-start-line="1745" selection-start-column="22" selection-end-line="1745" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/edit_peducators.php" />
+    <entry file="file://$PROJECT_DIR$/mysql_code/create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="59" lean-forward="true" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql_code/database0821.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="145" column="32" lean-forward="false" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
     <entry file="file://$PROJECT_DIR$/controllers/authentication.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -379,6 +470,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="111" column="39" lean-forward="false" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -408,6 +503,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="737">
           <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -415,6 +514,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -422,6 +525,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -429,6 +536,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -436,6 +547,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -443,6 +558,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -450,6 +569,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -457,6 +580,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="310" selection-end-column="1" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -464,6 +591,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="68" column="10" lean-forward="true" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -471,6 +602,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -478,6 +613,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -485,6 +624,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="898">
           <caret line="101" column="2" lean-forward="true" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="2" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -492,6 +635,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -513,6 +660,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -520,6 +671,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -541,6 +696,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -548,6 +707,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -556,6 +719,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3300">
           <caret line="316" column="0" lean-forward="true" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -563,6 +730,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="767">
           <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -578,6 +749,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -585,6 +760,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -592,6 +771,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="277" column="0" lean-forward="true" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -599,6 +782,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -606,6 +793,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="898">
           <caret line="153" column="41" lean-forward="false" selection-start-line="153" selection-start-column="41" selection-end-line="153" selection-end-column="41" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -613,6 +804,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="99" column="29" lean-forward="false" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -620,6 +815,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -635,6 +834,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -642,6 +845,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
         </state>
       </provider>
     </entry>
@@ -649,6 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="61" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -686,10 +894,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/controllers/passButton.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -720,5 +931,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> f7fbc1f7ae1d8015725bde44b41ae7755e85e6fa
   </component>
 </project>
