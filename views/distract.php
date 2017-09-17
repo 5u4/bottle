@@ -30,7 +30,14 @@ if (isset($_POST['drink'])) {
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/css/nav.css" rel="stylesheet">
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#force").click(function(){
+          $("#forceImg").toggle();
+        });
+    });
+</script>
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -57,13 +64,14 @@ if (isset($_POST['drink'])) {
                   curl_close($ch);
               ?>
           </h5>
+            <div id="forceImg"> <img src="force.gif"> </div>
         </div>
       </div>
 
       <div class="text-center row">
           <div class="col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-4 col-xs-3 col-xs-offset-3">
           <form method="post" action="">
-              <input class="btn btn-warning form-control" type="submit" value="Force" name="force">
+              <input class="btn btn-warning form-control" id="force" type="submit" value="Force" name="force">
           </form>
           </div>
 
