@@ -40,6 +40,7 @@ include_once 'controllers/passButton.php';
 <div class="container-fluid" style="padding-top: 3%">
 
     <a href="/views/garden.php"><button class="btn btn-default">My Garden</button></a>
+    <a href="/views/shop.php"><button class="btn btn-default">Shop</button></a>
 
     <img src="/assets/images/lv<?php echo getLevel(); ?>.png" class="img-responsive center-block" alt="Responsive image">
 

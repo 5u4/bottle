@@ -34,8 +34,9 @@ include_once '../controllers/passButton.php';
   <![endif]-->
 </head>
 <body>
-<div class="container">
+<div class="container-fluid" style="padding-top: 3%">
     <a href="../index.php"><button class="btn btn-default">HOME</button></a>
+    <h2 class="text-center">My Garden</h2>
   <div class="panel panel-primary">
     <div class="panel-body">
   <style type="text/css">
@@ -48,13 +49,13 @@ include_once '../controllers/passButton.php';
     </tr>
     <tr>
       <td class="tg-yw4l"><img src="../assets/images/lv3.png" alt="tree" class="img-thumbnail center-block"></td>
-      <td class="tg-yw4l"><img src="../assets/images/lv<?php echo getLevel(); ?>.png" alt="tree" class="img-thumbnail center-block"></td>
-      <td class="tg-yw4l"><img src="../assets/images/lv1.png" alt="tree" class="img-thumbnail center-block"></td>
+      <td class="tg-yw4l" style="vertical-align: bottom"><img src="../assets/images/lv<?php echo getLevel(); ?>.png" alt="tree" class="img-thumbnail center-block"></td>
+      <td class="tg-yw4l" style="vertical-align: bottom"><img src="../assets/images/lv1.png" alt="tree" class="img-thumbnail center-block"></td>
     </tr>
     <tr>
-      <td class="tg-yw4l"></td>
-      <td class="tg-yw4l"></td>
-      <td class="tg-yw4l"></td>
+        <td class="tg-yw4l" style="vertical-align: bottom"><img src="../assets/images/lv1.png" alt="tree" class="img-thumbnail center-block"></td>
+        <td class="tg-yw4l" style="vertical-align: bottom"><img src="../assets/images/lv1.png" alt="tree" class="img-thumbnail center-block"></td>
+        <td class="tg-yw4l" style="vertical-align: bottom"><img src="../assets/images/lv1.png" alt="tree" class="img-thumbnail center-block"></td>
     </tr>
   </table>
 
