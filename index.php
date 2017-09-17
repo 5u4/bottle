@@ -61,11 +61,11 @@ include_once 'controllers/passButton.php';
     <div class="text-center">
         <div class="row">
     <form method="post" action="">
-        <button class="btn btn-primary btn-lg" style="height: 100px; width: 300px;" name="pass">PASS</button>
+        <button class="btn btn-primary btn-lg" style="height: 100px; width: 300px;" name="pass">I Did Not Drink Today</button>
     </form>
 
     <form method="post" action="views/distract.php">
-        <button class="btn btn-default" style="width: 300px" name="fail">FAIL</button>
+        <button class="btn btn-default" style="width: 300px" name="fail">I Want To Drink</button>
     </form>
         </div>
     </div>

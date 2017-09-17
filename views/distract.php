@@ -49,8 +49,9 @@ if (isset($_POST['drink'])) {
 </head>
   <body>
     <div class="container-fluid" style="padding-top: 3%">
-
         <a href="../index.php"><button class="btn btn-default">HOME</button></a>
+
+        <h2 class="text-center">A Joke</h2>
 
       <div class="panel panel-default text-center">
         <div class="panel-body">
@@ -71,13 +72,13 @@ if (isset($_POST['drink'])) {
       <div class="text-center row">
           <div class="col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-4 col-xs-3 col-xs-offset-3">
           <form method="post" action="">
-              <input class="btn btn-warning form-control" id="force" type="submit" value="Force" name="force">
+              <input class="btn btn-warning form-control" id="force" type="submit" value="Force Me Not To!!" name="force">
           </form>
           </div>
 
           <div class="col-md-2 col-sm-2 col-xs-3">
           <form method="post" action="">
-        <input class="btn btn-danger form-control" type="submit" value="Drink" name="drink">
+        <input class="btn btn-danger form-control" type="submit" value="I Still Want To Drink" name="drink">
           </form>
           </div>
         </div>
