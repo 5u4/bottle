@@ -1,10 +1,14 @@
 <?php
-include_once '/controllers/drinkButtons.php';
-include_once '/controllers/getExp.php';
-include_once '/controllers/getGold.php';
-include_once '/controllers/getLevel.php';
-include_once '/controllers/getMaxExp.php';
-include_once '/controllers/passButton.php';
+include_once '../controllers/drinkButton.php';
+include_once '../controllers/getExp.php';
+include_once '../controllers/getGold.php';
+include_once '../controllers/getLevel.php';
+include_once '../controllers/getMaxExp.php';
+include_once '../controllers/passButton.php';
+if (isset($_POST['drink'])) {
+    drinkButton();
+    header("Location: ../index.php");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +55,7 @@ include_once '/controllers/passButton.php';
           </div>
 
           <div class="col-md-2 col-sm-2 col-xs-3">
-          <form method="post" action="../index.php">
+          <form method="post" action="">
         <input class="btn btn-danger form-control" type="submit" value="Drink" name="drink">
           </form>
           </div>
@@ -60,13 +64,8 @@ include_once '/controllers/passButton.php';
 
         <?php
             if (isset($_POST['force'])) {
-                $message = "";
-//                echo "<script type='text/javascript'>alert('$message');</script>";
-
-            }
-
-            if (isset($_POST['drink'])) {
-                drinkButton();
+                $message = "force";
+                echo "<script type='text/javascript'>alert('$message');</script>";
             }
         ?>
 

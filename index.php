@@ -1,5 +1,5 @@
 <?php
-include_once 'controllers/drinkButtons.php';
+include_once 'controllers/drinkButton.php';
 include_once 'controllers/getExp.php';
 include_once 'controllers/getGold.php';
 include_once 'controllers/getLevel.php';
