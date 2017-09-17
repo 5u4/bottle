@@ -59,11 +59,17 @@ include_once 'controllers/passButton.php';
     </div>
 
 
-
+    <div class="panel panel-primary text-center">
+        <div class="row">
     <form method="post" action="">
-        <button class="btn btn-circle-lg btn-primary" name="pass">PASS</button>
+        <button class="btn btn-primary btn-lg" style="height: 100px; width: 300px;" name="pass">PASS</button>
     </form>
 
+    <form method="post" action="views/distract.php">
+        <button class="btn btn-default" style="width: 300px" name="fail">FAIL</button>
+    </form>
+        </div>
+    </div>
 
 
 
