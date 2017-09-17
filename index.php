@@ -39,10 +39,7 @@ include_once 'controllers/passButton.php';
 <body>
 <div class="container-fluid" style="padding-top: 3%">
 
-
-    <img src="/assets/images/lv<?php echo getLevel(); ?>.png" class="img-responsive" alt="Responsive image">
-
-
+    <img src="/assets/images/lv<?php echo getLevel(); ?>.png" class="img-responsive center-block" alt="Responsive image">
 
     <div class="panel panel-primary">
         <div class="panel-body">
