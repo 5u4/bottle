@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include_once 'connection.php';
 
 function passButton() {
 // When users press passButton, gain exp and golds, and check if level up.
@@ -13,8 +13,8 @@ function passButton() {
   // $resultGold = mysqli_query($con,$sqlGold);
   //-------------------------------------------
 
-  $sql = "UPDATE users SET exp= exp + '$gainExp' WHERE id = '1'";
-  $result = mysqli_query(connection() $sql);
+  $sql = "UPDATE users SET exp= exp + '$gainExp' WHERE id = '1';";
+  $result = mysqli_query(connection(), $sql);
 
   echo "<meta http-equiv='refresh' content='0'>";
 

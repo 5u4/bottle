@@ -1,3 +1,11 @@
+<?php
+include_once '/controllers/drinkButtons.php';
+include_once '/controllers/getExp.php';
+include_once '/controllers/getGold.php';
+include_once '/controllers/getLevel.php';
+include_once '/controllers/getMaxExp.php';
+include_once '/controllers/passButton.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +26,7 @@
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/css/nav.css" rel="stylesheet">
 
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn\'t work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -26,42 +35,40 @@
   <![endif]-->
 </head>
   <body>
-    <div class="container">
+    <div class="container-fluid" style="padding-top: 3%">
 
-
-      <div class="">
-          <p>
-          </p>
-      </div>
-
-
-      <div class="panel panel-default">
+      <div class="panel panel-default text-center">
         <div class="panel-body">
-          Basic panel example hello
+          <p>joke body</p>
         </div>
       </div>
 
-      <div class="panel panel-default">
-        <div class="panel-heading">Item 01</div>
-        <div class="panel-body"><img src="http://placehold.it/150x150" alt="" class="img-responsive center-block" /></dir>
-      </div>
+      <div class="text-center row">
+          <div class="col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-4 col-xs-3 col-xs-offset-3">
+          <form method="post" action="">
+              <input class="btn btn-warning form-control" type="submit" value="Force" name="force">
+          </form>
+          </div>
+
+          <div class="col-md-2 col-sm-2 col-xs-3">
+          <form method="post" action="../index.php">
+        <input class="btn btn-danger form-control" type="submit" value="Drink" name="drink">
+          </form>
+          </div>
+        </div>
 
 
-      <div class="panel panel-default">
-        <center>
-          <h3>Joke</h3>
-          <p>joke body</p>
-        </center>
-      </div>
+        <?php
+            if (isset($_POST['force'])) {
+                $message = "";
+//                echo "<script type='text/javascript'>alert('$message');</script>";
 
-      <div>
-        <center>
-        <button class="btn btn-default" type="submit">Button</button>
-        <button class="btn btn-default" type="submit">Button</button>
-        </center>
-      </div>
+            }
 
-
+            if (isset($_POST['drink'])) {
+                drinkButton();
+            }
+        ?>
 
     </div>
 

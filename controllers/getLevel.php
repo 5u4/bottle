@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include_once 'connection.php';
 
 function getLevel() {
   //-------------------------------------------
@@ -17,7 +17,7 @@ function getLevel() {
     return 1;
   }
 
-  if($totalExp >= 3 && < 7) {
+  if($totalExp >= 3 && $totalExp < 7) {
     return 2;
   }
 

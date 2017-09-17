@@ -1,12 +1,12 @@
 <?php
-include 'connection.php';
+include_once 'connection.php';
 
-function getExp() {
-  $sql = "SELECT * FROM users WHERE id = '1'";
-  $result = mysqli_query(connection(), $sql);
-  $row = mysqli_fetch_array($result);
-  $totalExp = $row['exp'];
+function getExp()
+{
+    $sql = "SELECT * FROM users WHERE id = '1'";
+    $result = mysqli_query(connection(), $sql);
+    $row = mysqli_fetch_array($result);
+    $totalExp = $row['exp'];
 
-  return $totalExp;
+    return $totalExp;
 }
-?>
